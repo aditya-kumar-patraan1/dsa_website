@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.myhighlights{
+  font-size : 14px;
+}
+
+.myhighlights2{
+  font-size: 21px;
+}
+
+.area::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+}
+.area {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none; /* Removes any browser-specific focus shadows */
+}
